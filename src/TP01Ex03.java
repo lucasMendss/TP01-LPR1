@@ -1,3 +1,5 @@
+//Calcular e exibir a área de um quadrado a partir do valor de sua diagonal que será
+//digitado.
 public class TP01Ex03 extends Exercicio {
 
     public static void CalcularAreaQuadradoDiagonal(){

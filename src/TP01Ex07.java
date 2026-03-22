@@ -1,4 +1,5 @@
-
+//Calcular e exibir a média geométrica de dois valores quaisquer que serão
+//digitados.
 public class TP01Ex07 extends Exercicio{
 
     public static void calcularMediaGeometrica(){

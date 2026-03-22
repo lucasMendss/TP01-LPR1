@@ -1,3 +1,5 @@
+//Calcular e exibir o volume de uma esfera a partir do valor de seu diâmetro que
+//será digitado.
 public class TP01Ex05 extends Exercicio{
 
     public static void calcularVolumeEsfera(){

@@ -10,8 +10,8 @@ public class TPJava {
         //TP01Ex07.calcularMediaGeometrica();
         //TP01Ex08.converterMilhasParaQuilometros();
         //TP01Ex09.calculoVolts();
-        //TP01Ex10.celsiusParaFahrenheit();
-        TP01Ex11.areaCirculo
+        TP01Ex10.celsiusParaFahrenheit();
+
     }
     
 }

@@ -1,3 +1,5 @@
+//Entrar via teclado com a base e a altura de um retângulo, calcular e exibir sua
+//área.
 public class TP01Ex01 extends Exercicio{
     
     public static void calcularAreaRetangulo(){

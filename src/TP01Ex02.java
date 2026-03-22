@@ -1,3 +1,5 @@
+//Calcular e exibir a área de um quadrado, a partir do valor de sua aresta que será
+//digitado.
 public class TP01Ex02 extends Exercicio{
 
     public static void calcularAreaQuadrado(){
