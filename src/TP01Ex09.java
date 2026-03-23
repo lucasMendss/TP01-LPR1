@@ -3,6 +3,10 @@
 public class TP01Ex09 extends Exercicio {
 
     public static void calculoVolts() {
+        System.out.println("Exercício 9: Calcular e exibir a tensão de um determinado circuito eletrônico a partir dos valores da resistência e ");
+        System.out.println("corrente elétrica que serão digitados. Utilize a lei de Ohm.");
+        System.out.println("----------------------------------------");
+
         System.out.println("Digite um valor em Amperes: ");
         float amper = scanner.nextFloat();
         
@@ -10,6 +14,6 @@ public class TP01Ex09 extends Exercicio {
         float ohm = scanner.nextFloat();
 
         scanner.close();
-        System.out.printf("O valor em Volts é: %.2fV ", amper * ohm);
+        System.out.printf("O valor em Volts é: %.2fV \n", amper * ohm);
     }
 }

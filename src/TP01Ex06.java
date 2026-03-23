@@ -3,6 +3,9 @@
 public class TP01Ex06 extends Exercicio{
     
     public static void calcularMediaAritmetica() {
+        System.out.println("Exercício 6: Calcular e exibir a média aritmética de quatro valores quaisquer que serão digitados.");
+        System.out.println("----------------------------------------");
+
         float[] numeros = new float[4];
         float soma = 0;
         
@@ -12,6 +15,6 @@ public class TP01Ex06 extends Exercicio{
             soma += numeros[ii]; 
         }
         scanner.close();
-        System.out.printf("A média aritmética é: %.2f", soma / 4);
+        System.out.printf("A média aritmética é: %.2f \n", soma / 4);
     }
 }

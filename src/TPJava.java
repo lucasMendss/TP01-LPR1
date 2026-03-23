@@ -1,3 +1,11 @@
+/*
+IFSP CBT 2026 - ADS 371 - LPR1 Java - Trabalho Prático 01
+Professor Wellington Tuler Moraes
+
+Dupla:
+Aluno: João Pedro dos Santos
+Aluno: Lucas Rafael Silva Mendes
+ */
 public class TPJava {
 
     public static void main(String[] args) {
@@ -10,8 +18,14 @@ public class TPJava {
         //TP01Ex07.calcularMediaGeometrica();
         //TP01Ex08.converterMilhasParaQuilometros();
         //TP01Ex09.calculoVolts();
-        TP01Ex10.celsiusParaFahrenheit();
+        //TP01Ex10.celsiusParaFahrenheit();
+        //TP01Ex11.calcularAreaCirculo();
+        //TP01Ex12.calcularVolumeCone();
 
+        TP01Ex14.calcularVolumeAmbiente();
+
+        //TP01Ex16.calcularFuncoesTrigonometricas();
+
+        //TP01Ex18.calcularSomatoriaETroco();
     }
-    
 }

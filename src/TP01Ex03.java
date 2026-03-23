@@ -3,6 +3,9 @@
 public class TP01Ex03 extends Exercicio {
 
     public static void CalcularAreaQuadradoDiagonal(){
+        System.out.println("Exercício 3: Calcular e exibir a área de um quadrado a partir do valor de sua diagonal que será digitado.");
+        System.out.println("----------------------------------------");
+
         System.out.println("Digite a diagonal do quadrado em cm: ");
         
         float diagonal = scanner.nextFloat();
@@ -10,6 +13,4 @@ public class TP01Ex03 extends Exercicio {
         System.out.printf("A area do quadrado é %.2fcm² \n", Math.pow(diagonal,2) / 2);
         scanner.close();
     }
-    
-    
 }

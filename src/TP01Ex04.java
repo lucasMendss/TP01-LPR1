@@ -2,6 +2,9 @@
 public class TP01Ex04 extends  Exercicio {
 
     public static void calcularAreaTriangulo(){
+        System.out.println("Exercício 4: A partir dos valores da base e altura de um triângulo, calcular e exibir sua área.");
+        System.out.println("----------------------------------------");
+
         System.out.println("Digite a base do triângulo em cm: ");
         float baseTriangulo = scanner.nextFloat();
 
