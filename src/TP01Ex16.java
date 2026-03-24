@@ -4,14 +4,14 @@
 public class TP01Ex16 extends Exercicio {
 
     public static void calcularFuncoesTrigonometricas(){
+        System.out.println("------------------------------------------------------------------------------------------------------------------------");
         System.out.println("Exercício 16: Entrar via teclado com o valor de um ângulo em graus, calcular e exibir as seguintes funções trigonométricas: ");
         System.out.println("seno, cosseno, tangente e secante deste ângulo. Lembre-se que uma função trigonométrica trabalha em radianos.");
-        System.out.println("----------------------------------------");
+        System.out.println("------------------------------------------------------------------------------------------------------------------------");
 
         System.out.println("Digite o valor de um ângulo em graus (º):");
         double anguloEmGraus = scanner.nextDouble();
 
-        scanner.close();
         double anguloEmRad = Math.toRadians(anguloEmGraus);
         double senoAngulo = Math.sin(anguloEmRad);
         double cossenoAngulo = Math.cos(anguloEmRad);
